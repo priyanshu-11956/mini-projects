@@ -1,0 +1,37 @@
+body{
+    background-color:gray;
+    color: black;
+}
+.nav{
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    display:flex;
+}
+ul{
+    display:flex;
+    flex-direction:row;
+}
+li{
+    margin: 0px;
+    display:flex;
+    flex-direction:row;
+    font-size:large;
+    padding: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.btn{
+    padding:10px;
+    margin:10px;
+    border-radius: 10px;
+    width:10rem;
+    font-size:larger
+}
+p{
+    font-size:larger;
+}

@@ -1,0 +1,43 @@
+body{
+    background-color:black;
+    color: rgb(255, 255, 255);
+}
+.nav{
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: gray;
+    text-align: center;
+    display:flex;
+}
+ul{
+    display:flex;
+    flex-direction:row;
+}
+li{
+    margin: 0px;
+    display:flex;
+    flex-direction:row;
+    font-size:large;
+    padding: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+h1{
+    text-align:center;
+    margin-top:250px
+}
+
+.clock {
+    font-size: 3em;
+    font-weight: bold;
+    font-weight: bold;
+    background-color:orange;
+    padding:20px;
+}
+.container{
+    text-align:center;
+    margin-top:100px;
+}
